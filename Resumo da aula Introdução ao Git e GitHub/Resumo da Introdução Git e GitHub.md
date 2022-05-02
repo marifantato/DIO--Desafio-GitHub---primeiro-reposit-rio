@@ -13,6 +13,8 @@
 - git commit -m
 - git init (iniciar repositório Git)
 - git status (atualiza o que foi feito)
+- git push origin master
+- git pull origin master
 
 INSTALAÇÃO DO GIT:
 
@@ -24,20 +26,6 @@ OBJETOS:
 - Árvore (apontam Blobs ou outras árvores, retém informações de város arquivos)
 - Commit (dá sentido ao que está sendo desenvolvido, aponta autor e mensagem, data e hora da sua criação)
 
-
-* COMMIT
-
-\/
-
-* ÁRVORE
-
-\/   \/
-
-BLOB   ÁRVORE
-
-\/
-
-BLOB
 
 
 CHAVES:
@@ -57,15 +45,6 @@ UNTRACKED         UNMODIFIED         MODIFIED                STOGED
 
 (arq. que não temos ciência)  (arq. s/ alteração)   (arq. modificado) (arq. vai entrar em cena)
 
-ADD ARQ.------------------------------------------------------>
-
-EDITAR ARQ. ----------->
-
-STOGED ARQ.--------->
-
-<-----------------REMOVER ARQ.
-
-<------------------------------------COMMIT
 
 
 
